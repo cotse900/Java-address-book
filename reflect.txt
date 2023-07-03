@@ -1,0 +1,23 @@
+/**********************************************
+ Workshop 7
+ Course: JAC444 - Semester 4
+ Last Name: Tse
+ First Name: Chungon
+ ID: 154928188
+ Section: NAA
+ This assignment represents my own work in accordance with Seneca Academic Policy.
+ CHUNGON
+ Date: 24 Mar 2023
+ **********************************************/
+
+As I expected, I ended up spending more time on workshop 7 than the previous workshop 6. But on looking back, I think I did not have to use GridPane instead of Pane in my package ws07_updated where I developed full functionalities for the address book.
+
+My code is too large and too much to discuss, but I will pick a few points from App2_updated which is the full version. The workshop topic looks for Pane which uses relocate() with fixed points. I rewrote and developed App2_updated because I ran out of space for add and remove buttons, and then I ended up changing many other things as well.
+
+In App2_updated, by using GridPane, I divided the window into multiple rows and columns and so I manipulated grid cells and different widths/lengths to set out the listView and the 2 address panes. GridPane is more flexible than Pane, essentially, and GridPane is in fact easier to customize. I could not have used both Pane and the add and remove buttons to fix in the same AddressPane's size.
+
+Then, I essentially innovated, such as using a ComboBox for province fields, and I made my own rules on user input. Home Address is totally mandatory input, and if Alternate Address is blank, it copies from Home Address.
+
+I spent or wasted a lot of time on getting the text fields right, given 8 of them (excluding the ComboBox provinces), as well as File I/O operations because I had issues with addressBook.txt which was also my new invention. It was also challenging to get the listView right with every button. I often got the listView with entire string lines instead of just the contact name.
+
+I guess it is a good realization of how programs are actually hard to write.
